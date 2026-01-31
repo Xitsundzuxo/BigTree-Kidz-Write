@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BigTree Kidz Write</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+  <div id="parentScreen">
+    <h1>🌳 BigTree Kidz Write</h1>
+
+    <textarea id="wordInput" placeholder="Enter words, one per line"></textarea>
+
+    <button onclick="saveWords()">Save Words</button>
+    <button onclick="startLearning()">Start</button>
+  </div>
+
+  <div id="kidScreen" style="display:none;">
+    <h2 id="currentWord"></h2>
+
+    <canvas id="drawArea"></canvas>
+
+    <button onclick="speakCurrentWord()">🔊 Hear Word</button>
+    <button onclick="nextWord()">Next ➡️</button>
+  </div>
+
+  <script src="app.js"></script>
+  <script src="draw.js"></script>
+  <script src="speech.js"></script>
+</body>
+</html>
