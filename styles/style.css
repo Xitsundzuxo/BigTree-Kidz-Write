@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f5fff5;
+  text-align: center;
+}
+
+/* Containers */
+#parentScreen, #kidScreen {
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+}
+
+/* Titles */
+h1 {
+  color: #2e7d32;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #1b5e20;
+  margin: 10px 0;
+}
