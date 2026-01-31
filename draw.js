@@ -22,6 +22,9 @@ function startDraw(e) {
   ctx.beginPath();
 }
 
+function clearCanvas() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+}
 function stopDraw() {
   drawing = false;
 }
