@@ -73,3 +73,9 @@ canvas {
 .hidden {
   display: none;
 }
+
+
+#currentWord {
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
