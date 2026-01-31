@@ -102,3 +102,9 @@ canvas {
   width: 90vw;
   height: 40vh;
   }
+
+@media (orientation: portrait) {
+  #currentWord {
+    font-size: 3rem;
+  }
+  }
