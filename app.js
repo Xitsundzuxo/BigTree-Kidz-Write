@@ -47,3 +47,19 @@ function startLearning() {
 
   showWord();
 }
+
+function showWord() {
+  const wordDisplay = document.getElementById("currentWord");
+  wordDisplay.textContent = words[currentIndex];
+
+  clearCanvas();
+}
+
+function nextWord() {
+  if (currentIndex < words.length - 1) {
+    currentIndex++;
+    showWord();
+  } else {
+    alert("Great job! 🎉 All words completed.");
+  }
+}
