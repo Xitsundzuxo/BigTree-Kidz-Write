@@ -79,3 +79,26 @@ canvas {
   letter-spacing: 6px;
   text-transform: uppercase;
 }
+
+#kidScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Big horizontal word */
+#currentWord {
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: 12px;
+  white-space: nowrap;
+  overflow-x: auto;
+  max-width: 100%;
+  padding: 10px;
+}
+
+/* Landscape canvas */
+canvas {
+  width: 90vw;
+  height: 40vh;
+  }
